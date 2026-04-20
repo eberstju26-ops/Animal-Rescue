@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paw-some Pups Rescue - Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+        /* This is CSS! It makes your page look good. */
+        body {
+            font-family: 'Open Sans', sans-serif; /* A nice, readable font */
+            margin: 0;
+            background-color: #f9f9f9; /* A light, soft background */
+            color: #333; /* Dark gray text */
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #ffb6c1; /* A friendly pink color */
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* A subtle shadow */
+        }
+
+        header h1 {
+            font-family: 'Pacifico', cursive; /* A fun, handwritten-style font */
+            color: #fff; /* White text */
+            margin: 0;
+            font-size: 3em; /* Big and welcoming! */
+            letter-spacing: 2px;
+        }
+
+        nav ul {
+            list-style: none; /* Removes bullet points */
+            padding: 0;
+            margin: 10px 0 0;
+            display: flex; /* Makes navigation links sit next to each other */
+            justify-content: center; /* Centers the links */
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none; /* Removes the underline from links */
+            font-weight: bold;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease; /* Smooth color change on hover */
+        }
+
+        nav ul li a:hover {
+            background-color: #ff9aa8; /* Slightly darker pink on hover */
+        }
+
+        .container {
+            max-width: 960px; /* Makes sure content doesn't stretch too wide */
+            margin: 20px auto; /* Centers the container */
+            padding: 0 20px;
+        }
+
+        .hero-section {
+            background-color: #aed6f1; /* A calming blue */
+            text-align: center;
+            padding: 40px 20px;
+            border-radius: 8px; /* Rounded corners */
+            margin-bottom: 30px;
+        }
+
+        .hero-section h2 {
+            color: #2e86c1; /* Darker blue heading */
+            font-size: 2.5em;
+            margin-top: 0;
+        }
+
+        .hero-section p {
+            font-size: 1.2em;
+            color: #2e86c1;
+            margin-bottom: 25px;
+        }
+
+        .button {
+            display: inline-block; /* Allows padding and margin */
+            background-color: #5cb85c; /* A friendly green */
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #4cae4c; /* Darker green on hover */
+        }
+
+        .featured-dogs {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .featured-dogs h2 {
+            color: #e74c3c; /* A warm red for focus */
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .dog-card-container {
+            display: flex; /* Arranges dog cards side-by-side */
+            justify-content: space-around; /* Distributes space evenly */
+            flex-wrap: wrap; /* Allows cards to wrap to the next line on smaller screens */
+            gap: 20px; /* Space between cards */
+        }
+
+        .dog-card {
+            background-color: #f0f8ff; /* Light blue for dog cards */
+            border: 1px solid #cceeff; /* Light blue border */
+            border-radius: 8px;
+            padding: 15px;
+            width: 280px; /* Fixed width for each card */
+            text-align: center;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+            transition: transform 0.2s ease; /* Slight zoom on hover */
+        }
+
+        .dog-card:hover {
+            transform: translateY(-5px); /* Moves card up slightly on hover */
+        }
+
+        .dog-card img {
+            max-width: 100%;
+            height: 200px; /* Fixed height for consistent image size */
+            object-fit: cover; /* Ensures images cover the area without distortion */
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .dog-card h3 {
+            color: #34495e; /* Darker text for names */
+            margin-top: 0;
+            margin-bottom: 5px;
+        }
+
+        .dog-card p {
+            font-size: 0.9em;
+            color: #555;
+        }
+
+        footer {
+            background-color: #34495e; /* Dark blue/gray for the footer */
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Paw-some Pups Rescue</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#adopt">Adopt a Pup!</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero-section">
+            <h2>Giving Every Paw a Loving Home!</h2>
+            <p>Welcome to Paw-some Pups Rescue! We're dedicated to rescuing, rehabilitating, and finding forever homes for dogs in need. Every wagging tail has a story, and we help them write a happy new chapter.</p>
+            <a href="#adopt" class="button">See Our Adoptable Dogs!</a>
+        </section>
+
+        <section class="featured-dogs" id="adopt">
+            <h2>Meet Our Adorable Pups!</h2>
+            <div class="dog-card-container">
+                <!-- Dog Card 1 -->
+                <div class="dog-card">
+                    <img src="https://via.placeholder.com/280x200/FFDDC1/808080?text=Dog+Image+1" alt="A cute dog named Buddy">
+                    <h3>Buddy</h3>
+                    <p>Buddy is a playful Labrador mix who loves belly rubs and chasing balls. He's great with kids and other dogs!</p>
+                    <a href="#" class="button" style="background-color: #f39c12;">More About Buddy</a>
+                </div>
+
+                <!-- Dog Card 2 -->
+                <div class="dog-card">
+                    <img src="https://via.placeholder.com/280x200/D1FFDD/808080?text=Dog+Image+2" alt="A sweet dog named Daisy">
+                    <h3>Daisy</h3>
+                    <p>Daisy is a gentle Beagle with a sweet disposition. She enjoys quiet walks and cuddling on the sofa.</p>
+                    <a href="#" class="button" style="background-color: #f39c12;">More About Daisy</a>
+                </div>
+
+                <!-- Dog Card 3 -->
+                <div class="dog-card">
+                    <img src="https://via.placeholder.com/280x200/D1DDFF/808080?text=Dog+Image+3" alt="An energetic dog named Rocket">
+                    <h3>Rocket</h3>
+                    <p>Rocket is a high-energy terrier mix looking for an active family. He's super smart and loves to learn new tricks!</p>
+                    <a href="#" class="button" style="background-color: #f39c12;">More About Rocket</a>
+                </div>
+            </div>
+            <br>
+            <a href="#" class="button">View All Adoptable Dogs</a>
+        </section>
+
+        <!-- Placeholder for About Us and Contact sections -->
+        <section id="about" class="hero-section" style="background-color: #ffe6a7; color: #a0522d;">
+            <h2>About Paw-some Pups Rescue</h2>
+            <p>We are a non-profit organization run by volunteers who adore dogs! Learn more about our mission and how we help.</p>
+            <a href="#" class="button" style="background-color: #a0522d;">Our Story</a>
+        </section>
+
+        <section id="contact" class="featured-dogs">
+            <h2>Get In Touch!</h2>
+            <p>Have questions or want to volunteer? We'd love to hear from you!</p>
+            <a href="#" class="button" style="background-color: #3498db;">Contact Us</a>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Paw-some Pups Rescue. All rights reserved. | <a href="#" style="color: #fff;">Privacy Policy</a></p>
+    </footer>
+
+</body>
+</html>
