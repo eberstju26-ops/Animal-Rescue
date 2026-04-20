@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paw-some Pups Rescue - Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> <!-- Links to our common stylesheet -->
+</head>
+<body>
+
+    <header>
+        <h1>Paw-some Pups Rescue</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="adopt.html">Adopt a Pup!</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="how_to_help.html">How to Help</a></li>
+                <li><a href="success_stories.html">Success Stories</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero-section">
+            <h2>Giving Every Paw a Loving Home!</h2>
+            <p>Welcome to Paw-some Pups Rescue! We're dedicated to rescuing, rehabilitating, and finding forever homes for dogs in need. Every wagging tail has a story, and we help them write a happy new chapter.</p>
+            <a href="adopt.html" class="button">See Our Adoptable Dogs!</a>
+        </section>
+
+        <section class="featured-dogs">
+            <h2>Meet Our Featured Pups!</h2>
+            <div class="dog-card-container">
+                <div class="dog-card">
+                    <img src="https://via.placeholder.com/280x200/FFDDC1/808080?text=Buddy" alt="A cute dog named Buddy">
+                    <h3>Buddy</h3>
+                    <p>Buddy is a playful Labrador mix who loves belly rubs and chasing balls. He's great with kids and other dogs!</p>
+                    <a href="adopt.html#buddy" class="button" style="background-color: #f39c12;">More About Buddy</a>
+                </div>
+
+                <div class="dog-card">
+                    <img src="https://via.placeholder.com/280x200/D1FFDD/808080?text=Daisy" alt="A sweet dog named Daisy">
+                    <h3>Daisy</h3>
+                    <p>Daisy is a gentle Beagle with a sweet disposition. She enjoys quiet walks and cuddling on the sofa.</p>
+                    <a href="adopt.html#daisy" class="button" style="background-color: #f39c12;">More About Daisy</a>
+                </div>
+
+                <div class="dog-card">
+                    <img src="https://via.placeholder.com/280x200/D1DDFF/808080?text=Rocket" alt="An energetic dog named Rocket">
+                    <h3>Rocket</h3>
+                    <p>Rocket is a high-energy terrier mix looking for an active family. He's super smart and loves to learn new tricks!</p>
+                    <a href="adopt.html#rocket" class="button" style="background-color: #f39c12;">More About Rocket</a>
+                </div>
+            </div>
+            <br>
+            <p>Want to see more amazing dogs ready for their forever homes?</p>
+            <a href="adopt.html" class="button">View All Adoptable Dogs</a>
+        </section>
+
+        <section class="hero-section" style="background-color: #ffe6a7; color: #a0522d;">
+            <h2>Make a Difference Today!</h2>
+            <p>There are so many ways you can help us save more lives. From volunteering your time to donating, every little bit helps!</p>
+            <a href="how_to_help.html" class="button" style="background-color: #a0522d;">Learn How to Help</a>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Paw-some Pups Rescue. All rights reserved. | <a href="#" style="color: #fff;">Privacy Policy</a></p>
+    </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paw-some Pups Rescue - Adopt</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> <!-- Links to our common stylesheet -->
+</head>
+<body>
+
+    <header>
+        <h1>Paw-some Pups Rescue</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="adopt.html" class="active">Adopt a Pup!</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="how_to_help.html">How to Help</a></li>
+                <li><a href="success_stories.html">Success Stories</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero-section">
+            <h2>Find Your New Best Friend!</h2>
+            <p>Take a look at all the wonderful dogs currently waiting for their forever homes. Each one has a unique personality and lots of love to give!</p>
+            <p>Click on a dog's picture or name to learn more about them!</p>
+        </section>
+
+        <section class="adopt-listing">
+            <h2>Our Amazing Adoptable Dogs</h2>
+            <div class="dog-card-container">
+                <!-- Dog Card 1 (Buddy) - Added id="buddy" -->
+                <div class="dog-card" id="buddy">
+                    <img src="https://via.placeholder.com/280x200/FFDDC1/808080?text=Buddy" alt="A cute dog named Buddy">
+                    <h3>Buddy</h3>
+                    <p>Buddy is a playful Labrador mix who loves belly rubs and chasing balls. He's great with kids and other dogs!</p>
+                    <a href="#" class="button" style="background-color: #f39c12;">More Details</a>
+                </div>
+
+                <!-- Dog Card 2 (Daisy) - Added id="daisy" -->
+                <div class="dog-card" id="daisy">
+                    <img src="https://via.placeholder.com/280x200/D1FFDD/808080?text=Daisy" alt="A sweet dog named Daisy">
+                    <h3>Daisy</h3>
+                    <p>Daisy is a gentle Beagle with a sweet disposition. She enjoys quiet walks and cuddling on the sofa.</p>
+                    <a href="#" class="button" style="background-color: #f39c12;">More Details</a>
+                </div>
+
+                <!-- Dog Card 3 (Rocket) - Added id="rocket" -->
+                <div class="dog-card" id="rocket">
+                    <img src="https://via.placeholder.com/280x200/D1DDFF/808080?text=Rocket" alt="An energetic dog named Rocket">
+                    <h3>Rocket</h3>
+                    <p>Rocket is a high-energy terrier mix looking for an active family. He's super smart and loves to learn new tricks!</p>
+                    <a href="#" class="button" style="background-color: #f39c12;">More Details</a>
+                </div>
+
+                <div class="dog-card">
+                    <img src="https://via.placeholder.com/280x200/E6E6FA/808080?text=Max" alt="A handsome dog named Max">
+                    <h3>Max</h3>
+                    <p>Max is a friendly Golden Retriever mix, loves long walks and playing fetch. Great with older children.</p>
+                    <a href="#" class="button" style="background-color: #f39c12;">More Details</a>
+                </div>
+
+                <div class="dog-card">
+                    <img src="https://via.placeholder.com/280x200/F0FFF0/808080?text=Bella" alt="A charming dog named Bella">
+                    <h3>Bella</h3>
+                    <p>Bella is a shy but sweet Border Collie who blossoms with patience. Perfect for a quiet home.</p>
+                    <a href="#" class="button" style="background-color: #f39c12;">More Details</a>
+                </div>
+
+                <div class="dog-card">
+                    <img src="https://via.placeholder.com/280x200/FFFACD/808080?text=Charlie" alt="A cheerful dog named Charlie">
+                    <h3>Charlie</h3>
+                    <p>Charlie is a happy-go-lucky Terrier. Loves to snuggle and is always ready for an adventure!</p>
+                    <a href="#" class="button" style="background-color: #f39c12;">More Details</a>
+                </div>
+
+                <div class="dog-card">
+                    <img src="https://via.placeholder.com/280x200/ADD8E6/808080?text=Lucy" alt="A cute dog named Lucy">
+                    <h3>Lucy</h3>
+                    <p>Lucy is a small and sassy Chihuahua who rules the roost! Needs an experienced owner.</p>
+                    <a href="#" class="button" style="background-color: #f39c12;">More Details</a>
+                </div>
+
+                <div class="dog-card">
+                    <img src="https://via.placeholder.com/280x200/FFB6C1/808080?text=Finn" alt="A playful dog named Finn">
+                    <h3>Finn</h3>
+                    <p>Finn is a energetic puppy who loves to play! Needs training and a family with lots of energy.</p>
+                    <a href="#" class="button" style="background-color: #f39c12;">More Details</a>
+                </div>
+
+                <div class="dog-card">
+                    <img src="https://via.placeholder.com/280x200/DDA0DD/808080?text=Chloe" alt="A gentle dog named Chloe">
+                    <h3>Chloe</h3>
+                    <p>Chloe is a senior Poodle, calm and loving. Enjoys naps and gentle pets.</p>
+                    <a href="#" class="button" style="background-color: #f39c12;">More Details</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Paw-some Pups Rescue. All rights reserved. | <a href="#" style="color: #fff;">Privacy Policy</a></p>
+    </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paw-some Pups Rescue - About Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> <!-- Links to our common stylesheet -->
+</head>
+<body>
+
+    <header>
+        <h1>Paw-some Pups Rescue</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="adopt.html">Adopt a Pup!</a></li>
+                <li><a href="about.html" class="active">About Us</a></li>
+                <li><a href="how_to_help.html">How to Help</a></li>
+                <li><a href="success_stories.html">Success Stories</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero-section">
+            <h2>Our Story: Passion for Paws!</h2>
+            <p>Welcome to the heart of Paw-some Pups Rescue! We're more than just a shelter; we're a community of animal lovers dedicated to giving every dog a second chance at a happy life.</p>
+        </section>
+
+        <section class="featured-dogs"> <!-- Reusing 'featured-dogs' style for general sections -->
+            <h2>Who We Are</h2>
+            <p>Paw-some Pups Rescue was founded in 20XX by a group of passionate volunteers who saw a need for a safe haven for abandoned, neglected, and surrendered dogs. We believe every dog deserves love, respect, and a warm home.</p>
+            <p>Our team works tirelessly, often volunteering their own time and resources, to ensure our dogs receive the best care. From medical treatments to daily walks and cuddles, we pour our hearts into their well-being.</p>
+            <img src="https://via.placeholder.com/600x300/F0F8FF/808080?text=Our+Team" alt="Picture of the Paw-some Pups Rescue team and volunteers" style="max-width:100%; height:auto; border-radius:8px; margin-top:20px;">
+        </section>
+
+        <section class="hero-section" style="background-color: #f0f8ff; color: #34495e;">
+            <h2>Our Mission</h2>
+            <p>To rescue and rehabilitate dogs in need, providing them with veterinary care, proper nutrition, and socialization. Ultimately, our goal is to find them loving, permanent homes where they can thrive and be cherished family members.</p>
+        </section>
+
+        <section class="featured-dogs">
+            <h2>Our Values</h2>
+            <ul>
+                <li>**Compassion:** Treating every animal with kindness and empathy.</li>
+                <li>**Integrity:** Operating with honesty and transparency.</li>
+                <li>**Community:** Building a network of support for dogs and their new families.</li>
+                <li>**Advocacy:** Speaking up for the voiceless and promoting responsible pet ownership.</li>
+            </ul>
+            <p>We believe in the power of a wagging tail to bring joy and companionship into human lives, and we're committed to making that connection happen.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Paw-some Pups Rescue. All rights reserved. | <a href="#" style="color: #fff;">Privacy Policy</a></p>
+    </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paw-some Pups Rescue - How to Help</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> <!-- Links to our common stylesheet -->
+</head>
+<body>
+
+    <header>
+        <h1>Paw-some Pups Rescue</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="adopt.html">Adopt a Pup!</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="how_to_help.html" class="active">How to Help</a></li>
+                <li><a href="success_stories.html">Success Stories</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero-section">
+            <h2>Be a Hero for a Homeless Dog!</h2>
+            <p>Every helping hand makes a huge difference in the lives of our rescue dogs. Whether you have time, resources, or just a big heart, there's a way you can contribute!</p>
+        </section>
+
+        <section class="featured-dogs">
+            <h2>Ways You Can Help</h2>
+            <div class="dog-card-container"> <!-- Using dog-card-container for layout -->
+
+                <div class="dog-card" style="background-color: #e8f5e9;">
+                    <img src="https://via.placeholder.com/280x150/C8E6C9/808080?text=Volunteer" alt="Volunteer working with a dog">
+                    <h3>Volunteer Your Time</h3>
+                    <p>Help with walking, cleaning, events, or even administrative tasks. Your time is invaluable!</p>
+                    <a href="contact.html" class="button">Apply to Volunteer</a>
+                </div>
+
+                <div class="dog-card" style="background-color: #fff3e0;">
+                    <img src="https://via.placeholder.com/280x150/FFECB3/808080?text=Foster+Home" alt="Dog in a foster home">
+                    <h3>Become a Foster Parent</h3>
+                    <p>Open your home and heart to a dog in need. Fostering saves lives and helps dogs prepare for adoption!</p>
+                    <a href="contact.html" class="button">Learn About Fostering</a>
+                </div>
+
+                <div class="dog-card" style="background-color: #e3f2fd;">
+                    <img src="https://via.placeholder.com/280x150/BBDEFB/808080?text=Donate" alt="Donation box or money">
+                    <h3>Donate</h3>
+                    <p>Your financial contributions help cover medical bills, food, and supplies for all our rescued pups.</p>
+                    <a href="#" class="button">Donate Now!</a> <!-- Placeholder for a donation link -->
+                </div>
+
+                <div class="dog-card" style="background-color: #fbe9e7;">
+                    <img src="https://via.placeholder.com/280x150/FFCDD2/808080?text=Share" alt="People sharing on social media">
+                    <h3>Spread the Word!</h3>
+                    <p>Share our adoptable dogs on social media, tell your friends, and help us find them homes!</p>
+                    <a href="#" class="button">Visit Our Facebook</a> <!-- Placeholder for social media -->
+                </div>
+
+            </div>
+        </section>
+
+        <section class="hero-section" style="background-color: #d1f3d1; color: #4CAF50;">
+            <h2>Thank You for Your Support!</h2>
+            <p>Together, we can make a world of difference for dogs who desperately need our love and protection.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Paw-some Pups Rescue. All rights reserved. | <a href="#" style="color: #fff;">Privacy Policy</a></p>
+    </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paw-some Pups Rescue - Success Stories</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> <!-- Links to our common stylesheet -->
+</head>
+<body>
+
+    <header>
+        <h1>Paw-some Pups Rescue</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="adopt.html">Adopt a Pup!</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="how_to_help.html">How to Help</a></li>
+                <li><a href="success_stories.html" class="active">Success Stories</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero-section">
+            <h2>Happy Tails, Happy Lives!</h2>
+            <p>There's nothing quite like seeing our rescued pups settle into their forever homes. These are just a few of the heartwarming stories that keep us going!</p>
+        </section>
+
+        <section class="featured-dogs">
+            <h2>Our Happily Ever Afters</h2>
+            <div class="dog-card-container">
+
+                <div class="dog-card" style="background-color: #f7e0ed;">
+                    <img src="https://via.placeholder.com/280x200/F4D0DF/808080?text=Rosie+Adopted" alt="Rosie with her new family">
+                    <h3>Rosie's New Home</h3>
+                    <p>Rosie, once a timid stray, found her confidence and a loving family. She now enjoys sunny walks and endless cuddles!</p>
+                </div>
+
+                <div class="dog-card" style="background-color: #e0f2f7;">
+                    <img src="https://via.placeholder.com/280x200/CFE8EF/808080?text=Max+Adopted" alt="Max playing in a park">
+                    <h3>Max's Adventure Begins</h3>
+                    <p>Max, an energetic terrier mix, was adopted by an active family. He loves hiking and being the best adventure buddy!</p>
+                </div>
+
+                <div class="dog-card" style="background-color: #e0f7e9;">
+                    <img src="https://via.placeholder.com/280x200/D0EDD6/808080?text=Luna+Adopted" alt="Luna relaxing on a couch">
+                    <h3>Luna's Sweet Retreat</h3>
+                    <p>Luna, a calm senior dog, found a quiet home where she's spoiled rotten with soft beds and gentle pets. Pure bliss!</p>
+                </div>
+
+            </div>
+            <p style="margin-top: 30px;">Do you have a success story to share about your Paw-some Pup? <a href="contact.html">Let us know!</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Paw-some Pups Rescue. All rights reserved. | <a href="#" style="color: #fff;">Privacy Policy</a></p>
+    </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paw-some Pups Rescue - Contact Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> <!-- Links to our common stylesheet -->
+</head>
+<body>
+
+    <header>
+        <h1>Paw-some Pups Rescue</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="adopt.html">Adopt a Pup!</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="how_to_help.html">How to Help</a></li>
+                <li><a href="success_stories.html">Success Stories</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero-section">
+            <h2>Get In Touch With Us!</h2>
+            <p>Do you have questions about adoption, volunteering, or anything else? We'd love to hear from you!</p>
+        </section>
+
+        <section class="featured-dogs">
+            <h2>How to Reach Paw-some Pups Rescue</h2>
+            <p>We're here to help! Choose the best way to contact us:</p>
+
+            <div class="dog-card-container"> <!-- Reusing styling for a clean layout -->
+                <div class="dog-card" style="background-color: #f0f0f0;">
+                    <h3>Send us an Email</h3>
+                    <p>For general inquiries or adoption questions, drop us a line!</p>
+                    <a href="mailto:info@pawsomepupsrescue.org" class="button" style="background-color: #3498db;">Email Us</a>
+                </div>
+
+                <div class="dog-card" style="background-color: #f0f0f0;">
+                    <h3>Give us a Call</h3>
+                    <p>If you prefer to speak to someone directly during our operating hours.</p>
+                    <p>Phone: (555) 123-4567</p>
+                    <a href="tel:5551234567" class="button" style="background-color: #2ecc71;">Call Now</a>
+                </div>
+
+                <div class="dog-card" style="background-color: #f0f0f0;">
+                    <h3>Visit Our Location</h3>
+                    <p>By appointment only. Please contact us first to arrange a visit.</p>
+                    <address>
+                        123 Pet Pal Road<br>
+                        Puppyville, PA 12345
+                    </address>
+                    <a href="#" class="button" style="background-color: #e67e22;">Get Directions</a> <!-- Placeholder -->
+                </div>
+            </div>
+
+            <h3 style="margin-top: 40px;">Follow Us on Social Media!</h3>
+            <p>Stay up-to-date with our latest rescue stories, events, and adoptable pups.</p>
+            <p>
+                <a href="#" style="color: #3498db; text-decoration: none; font-weight: bold; margin: 0 10px;">Facebook</a> |
+                <a href="#" style="color: #e74c3c; text-decoration: none; font-weight: bold; margin: 0 10px;">Instagram</a> |
+                <a href="#" style="color: #2980b9; text-decoration: none; font-weight: bold; margin: 0 10px;">Twitter</a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Paw-some Pups Rescue. All rights reserved. | <a href="#" style="color: #fff;">Privacy Policy</a></p>
+    </footer>
+
+</body>
+</html>
